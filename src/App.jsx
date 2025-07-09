@@ -1,12 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const App = () => {
+const Profile = () => {
+  return <img src="https://i.imgur.com/MK3eW3As.jpg" alt="Katherine Johnson" />;
+};
+
+export default function Gallery() {
   return (
-    <div>
-      <h1>Hello George</h1>
-      
-    </div>
-  )
+    <section>
+      <h1>Amazing scientists</h1>
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
+  );
 }
-
-export default App
